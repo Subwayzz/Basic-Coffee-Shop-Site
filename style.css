@@ -1,18 +1,20 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap');
 body {
-  background-color: #f8f3ef;
-  color: #3e2c23;
-  font-family: 'Segoe UI', sans-serif;
+  background-color: #efebc8;
+  color: #332C0F;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 1.2rem;
 }
 .navbar {
-  background-color: #6f4e37;
+  background-color: #304812;
 }
 .navbar-brand, .nav-link {
   color: #fff !important;
   font-weight: bold;
 }
 .hero {
-  background-color: #d6ccc2;
+  background-color: #cfd6c2;
   padding: 60px 20px;
   text-align: center;
 }
@@ -28,10 +30,42 @@ body {
   margin-bottom: 15px;
 }
 footer {
-  background-color: #6f4e37;
+  background-color: #304812;
   color: white;
   padding: 20px 10px;
   text-align: center;
   margin-top: 40px;
+}
+
+.book-cover {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px; /* Optional: adds slight rounded corners */
+}
+
+.book-button {
+  min-height: 220px; /* Minimum height for all buttons */
+}
+
+.book-info {
+  font-size: 1.3rem; /* Keeps text readable but compact */
+}
+
+#site-name{
+  font-family:"Damion", cursive;
+  font-size: 2.5rem;
+}
+
+.custom-book-btn {
+  border-color: #304812 !important;     /* Brown border */
+  color: #304812 !important;            /* Brown text */
+  font-family: 'Georgia', serif !important;  /* Different font */
+  font-weight: bold !important;
+}
+
+.custom-book-btn:hover {
+  background-color: #304812 !important; /* Brown background on hover */
+  color: white !important;               /* White text on hover */
 }
 

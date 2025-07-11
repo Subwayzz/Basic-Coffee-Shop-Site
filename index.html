@@ -15,7 +15,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="#">The Classics</a>
+      <a class="navbar-brand" id="site-name" href="#">The Classics</a>
       <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon text-dark"></span>
       </button>
@@ -31,7 +31,7 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <h1>Welcome to The Classics, an online bookstore!</h1>
+    <h1>Welcome to <em>The Classics</em>, an online bookstore!</h1>
     <p class="lead">Read classic literature from the comfort of your home.</p>
   </section>
 
@@ -41,34 +41,82 @@
     <!-- About -->
     <section id="about" class="mb-5">
       <h2 class="mb-3">About Us</h2>
-      <p>Welcome to Cozy Bean Coffee, your neighborhood spot for fresh coffee, artisan pastries, and chill vibes. We believe in quality brews, friendly service, and creating a space where everyone feels at home.</p>
+      <p>Welcome to <em>The Classics</em>, your curated gateway to the greatest works of classic literature. Explore our BestSellers, each a portal to profound ideas, unforgettable characters, and enduring stories. With direct links to start reading online, your literary journey is just a click away.</p>
     </section>
 
     <!-- Menu -->
     <section id="menu" class="mb-5">
-      <h2 class="mb-4">Our Menu</h2>
+      <h2 class="mb-4">Our Bestsellers</h2>
       <div class="row">
         <div class="col-md-6">
-          <div class="menu-item d-flex justify-content-between">
-            <span>Espresso</span><span>$2.50</span>
-          </div>
-          <div class="menu-item d-flex justify-content-between">
-            <span>Latte</span><span>$3.50</span>
-          </div>
-          <div class="menu-item d-flex justify-content-between">
-            <span>Mocha</span><span>$3.75</span>
-          </div>
+          <a href="https://giove.isti.cnr.it/demo/eread/Libri/joy/Pride.pdf" 
+            class="btn btn-outline-primary btn-lg w-100 mb-2 text-center custom-book-btn book-button" 
+            target="_blank">
+            <div class="d-flex flex-column align-items-center">
+              <img src="https://images3.penguinrandomhouse.com/cover/9780593622452" alt="Book Cover" class="book-cover mb-2">
+              <div class="d-flex justify-content-between w-100 book-info">
+                <span>Pride and Prejudice by Jane Austen</span>
+                <span>(1813) 📖</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf" 
+            class="btn btn-outline-primary btn-lg w-100 mb-2 text-center custom-book-btn book-button" 
+            target="_blank">
+            <div class="d-flex flex-column align-items-center">
+              <img src="https://m.media-amazon.com/images/I/41NuANoS1yL._SY445_SX342_.jpg" alt="Book Cover" class="book-cover mb-2">
+              <div class="d-flex justify-content-between w-100 book-info">
+                <span>1984 by George Orwell</span>
+                <span>(1949) 📖</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://ct02210097.schoolwires.net/site/handlers/filedownload.ashx?moduleinstanceid=26616&dataid=28467&FileName=The%20Great%20Gatsby.pdf" 
+            class="btn btn-outline-primary btn-lg w-100 mb-2 text-center custom-book-btn book-button" 
+            target="_blank">
+            <div class="d-flex flex-column align-items-center">
+              <img src="https://i0.wp.com/americanwritersmuseum.org/wp-content/uploads/2018/02/CK-3.jpg?resize=267%2C400&ssl=1" alt="Book Cover" class="book-cover mb-2">
+              <div class="d-flex justify-content-between w-100 book-info">
+                <span>The Great Gatsby by F. Scott Fitzgerald</span>
+                <span>(1925) 📖</span>
+              </div>
+            </div>
+          </a>
         </div>
         <div class="col-md-6">
-          <div class="menu-item d-flex justify-content-between">
-            <span>Cold Brew</span><span>$3.00</span>
-          </div>
-          <div class="menu-item d-flex justify-content-between">
-            <span>Blueberry Muffin</span><span>$2.25</span>
-          </div>
-          <div class="menu-item d-flex justify-content-between">
-            <span>Chocolate Croissant</span><span>$2.75</span>
-          </div>
+          <a href="https://coldreads.wordpress.com/wp-content/uploads/2016/01/miss-lulu-bett.pdf" 
+            class="btn btn-outline-primary btn-lg w-100 mb-2 text-center custom-book-btn book-button" 
+            target="_blank">
+            <div class="d-flex flex-column align-items-center">
+              <img src="https://images3.penguinrandomhouse.com/cover/9781400095384" alt="Book Cover" class="book-cover mb-2">
+              <div class="d-flex justify-content-between w-100 book-info">
+                <span>Miss Lulu Bett by Zona Gale</span>
+                <span>(1920) 📖</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.planetpublish.com/wp-content/uploads/2011/11/Crime_and_Punishment_T.pdf" 
+            class="btn btn-outline-primary btn-lg w-100 mb-2 text-center custom-book-btn book-button" 
+            target="_blank">
+            <div class="d-flex flex-column align-items-center">
+              <img src="https://www.aliceandbooks.com/covers/Crime_and_Punishment-Fyodor_Dostoevsky-lg.png" alt="Book Cover" class="book-cover mb-2">
+              <div class="d-flex justify-content-between w-100 book-info">
+                <span>Crime and Punishment by Fyodor Dostoevsky</span>
+                <span>(1866) 📖</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.cs.ucdavis.edu/~koehl/Teaching/ECS188/PDF_files/Machine_stops.pdf" 
+            class="btn btn-outline-primary btn-lg w-100 mb-2 text-center custom-book-btn book-button" 
+            target="_blank">
+            <div class="d-flex flex-column align-items-center">
+              <img src="https://cdn.kobo.com/book-images/f1ae8a15-556a-493d-8e30-6f7861710873/1200/1200/False/the-machine-stops-35.jpg" alt="Book Cover" class="book-cover mb-2">
+              <div class="d-flex justify-content-between w-100 book-info">
+                <span>The Machine Stops by E.M. Forster</span>
+                <span>(1909) 📖</span>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
